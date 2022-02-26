@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+
+      width: 100%;
+      display: flex;
+
+    }
+
+    .column {
+
+      flex-basis: calc(100$ / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+
+    }
+
+    img{
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+
+  <div class="container">
+
+    <h1>Indiana Jones</h1>
+
+    <div class="row">
+
+      <div class="column">
+
+        <img src="images/raiders.jpg" alt="an image of the movie are for indiana jones: raiders of the lost ark">
+        <h3>Raiders Of The Los Ark</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ullam animi adipisci quae reprehenderit fuga est harum. Voluptatibus consequuntur deserunt, necessitatibus, nam quo aperiam recusandae nostrum adipisci earum ex totam?
+        Qui inventore beatae recusandae enim nesciunt quod nam ea sint tempore! Magnam, quos quaerat, ea minima neque odit suscipit, veniam ducimus culpa facere animi deserunt reprehenderit ullam excepturi. Maiores, harum!</p>
+      </div>
+
+      <div class="column">
+        <img src="images/temple.jpg" alt="an image of the movie are for indiana jones and the temple of doom">
+        <h3>Temple Of Doom</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quae enim expedita sequi asperiores voluptatibus cupiditate repellat mollitia aliquam officiis praesentium voluptates maiores, eaque delectus qui assumenda, non nemo alias.
+        Quas repellat repellendus aut voluptas amet cupiditate tempora vel similique molestiae quibusdam, totam laudantium doloribus alias! Sunt odit nobis in quasi tempore fuga quidem repudiandae temporibus sequi laborum. Deserunt, aspernatur!</p>
+      </div>
+
+      <div class="column">
+        <img src="images/crusade.jpg" alt="an image of the movie are for indiana jones and the last crusade">
+        <h3>The Last Crusade</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit et nostrum illo exercitationem labore repellendus ipsum cupiditate eum quod delectus eligendi, corporis maiores provident cum similique iusto distinctio ducimus possimus!
+        Ipsam voluptates iusto voluptatem cumque accusantium. Tempora quisquam nam exercitationem quo incidunt, inventore dicta quos quam reprehenderit! Eveniet ullam ad numquam corrupti ea minus. Quod beatae dolor ratione sapiente impedit.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
